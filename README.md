@@ -35,7 +35,7 @@ Para rodar este projeto, você precisará ter instalado e configurado:
 
 ---
 
-## 💾 Configuração do Banco de Dados
+## 💾 Configuração do Projeto
 
 
 
