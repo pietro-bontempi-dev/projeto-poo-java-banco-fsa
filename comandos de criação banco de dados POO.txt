@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS banco_fsa;
+
+CREATE TABLE IF NOT EXISTS clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY, -- Novo ID como chave primária
+    numero_conta VARCHAR(7) NOT NULL UNIQUE, -- Conta como índice único
+    nome VARCHAR(100) NOT NULL,
+    data_nascimento DATE,
+    profissao VARCHAR(100),
+    tipo_conta ENUM('Conta-Corrente', 'Conta-Poupança', 'Conta-Salário') NOT NULL
+);
+
